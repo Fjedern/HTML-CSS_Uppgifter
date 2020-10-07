@@ -31,11 +31,6 @@ a {
     text-shadow: 0px 0px 8px #3b424f, 0px 0px 4px #FFF;
     transition: color .5s;
 
-    flex: 1;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 a:hover{
