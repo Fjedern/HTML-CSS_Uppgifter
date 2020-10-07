@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>inlämningsuppgift 1</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <style>
+        body {
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+
+    </style>
+    <body>
+        <h1>Aggresiv undersökning</h1>
+        <p style="font-weight: 700;">MATA IN DITT NAMN</p>
+        <form class="container">
+            <span><input size="35" maxlength="20"></span>
+            <label>SKRIV LITE TEXT OM DIG SJÄLV!</label>
+            <span><textarea style="resize: none; background-color: lightgreen;" rows="4" cols="30"></textarea></span>
+            <i>SPELAR DU NÅGON SPORT?!</i>
+            <div class="rowContainer">
+                <input type="radio" name="sport" value="JA">
+                <label for="male">JA</label>
+                <input type="radio" name="sport" value="NEJ">
+                <label for="male">NEJ</label>
+            </div>
+            <i><b>HUR FÖREDRAR DU ATT LÄSA OM INTRESSANTA SAKER?!!</b></i>
+            <div class="rowContainer">
+                <input type="checkbox" value="Böcker">
+                <label for="vehicle1">Böcker</label>
+                <input type="checkbox" value="Tidningar">
+                <label for="vehicle1">Tidningar</label>
+                <input type="checkbox" value="Online">
+                <label for="vehicle1">Online</label>
+            </div>
+            <div class="rowContainer">
+                <p>VÄLJ EN FAVORITGENRE ELLER INTE VÄLJ SJÄLV</p>
+                <select name="genres">
+                    <option></option>
+                    <option value="Action">Action</option>
+                    <option value="Romantik">Romantik</option>
+                    <option value="Komedi">Komedi</option>
+                    <option value="Drama">Drama</option>
+                    <option value="Skräck">Skräck</option>
+                </select>
+            </div>
+            <span><button type="submit">Lämna in</button></span>
+        </form>
+
+
+        <script src="" async defer></script>
+    </body>
+</html>
